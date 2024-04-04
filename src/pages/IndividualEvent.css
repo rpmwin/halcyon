@@ -1,0 +1,52 @@
+.boxi {
+  position: relative;
+  z-index: 1;
+}
+
+.boxi::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 100%;
+  height: 100%;
+  background-color: #7d2d2d;
+  /* z-index: -1; */
+  margin: 0 auto;
+  filter: blur(10px);
+  /* transform: scale(0.8); */
+  /* opacity: 0.5; */
+  background-image: linear-gradient(
+    var(--rotate),
+    #ffea54,
+    #ffcb3c,
+    #feaa2b,
+    #ff5757
+  );
+  opacity: 0.6;
+  /* animation: spin 4s linear infinite; */
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+
+.insidebox {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+}
+
+.property {
+  --rotate: 132deg;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
