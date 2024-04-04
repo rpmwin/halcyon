@@ -1,13 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
 import EventPage from './pages/EventPage';
 import About from './pages/About';
-import AllEvents from './pages/AllEvents';
 import IndividualEvent from './pages/IndividualEvent';
 import HomeMain from './pages/HomeMain';
-import LoadingAnimation from './pages/NewTest';
 import NavBar from './components/NavBar';
 import EventsPage from './pages/EventsPage';
 import Footer from './components/Footer';

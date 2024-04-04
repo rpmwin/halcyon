@@ -1,5 +1,4 @@
 import React from 'react';
-import Home from './Home';
 import { BackgroundBlogCard } from '../components/EventsComponentAll';
 import Data from '../assets/Data.js';
 
