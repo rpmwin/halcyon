@@ -16,10 +16,10 @@ function App() {
   return (
     <div className="min-w-screen min-h-screen flex flex-col bg-zinc-900 text-white overflow-x-hidden relative">
       <Router>
-        <div className="z-20 fixed top-3  ">
+        <div className="z-20 fixed top-3 p-3 w-screen transform navbarcss flex justify-center items-center">
           <NavBar />
         </div>
-        <div className='mt-10 flex-grow'>
+        <div className="mt-10 flex-grow">
           <Routes>
             <Route path="/" element={<HomeMain />} />
             <Route path="/events" element={<EventsPage />} />
@@ -29,7 +29,7 @@ function App() {
               element={<IndividualEvent />}
             />
             <Route path="/about" element={<About />} />
-            <Route path='/contact' element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
             {/* <Route path="/Test" element={<LoadingAnimation />} /> */}
           </Routes>
         </div>

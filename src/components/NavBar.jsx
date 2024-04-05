@@ -4,7 +4,7 @@ import SITLOGO from '../assets/Logo/SIT.png';
 
 function NavBar() {
   return (
-    <div className="flex justify-between items-center p-3 px-6 bg-gray-600 bg-opacity-50 backdrop-blur-lg shadow-lg rounded-xl w-screen">
+    <div className="flex justify-between items-center p-3 px-6 bg-gray-600 bg-opacity-50 backdrop-blur-lg shadow-lg rounded-xl sm:w-3/4">
       <img src={SITLOGO} alt="" className="w-12 hidden sm:inline md:inline" />
       <div className="flex justify-between space-x-6 text-xl">
         <NavLink
