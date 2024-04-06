@@ -1,10 +1,11 @@
 import Valorantpic from '../assets/Images/Valorant1.webp';
 import Valorantimage from './Images/valo1.jpg';
 import BGMI from './Images/BGMI.jpg';
-
+import BoB from './Images/battleofBands.jpg';
 const Events = [
   {
     category: 'Literary',
+   
     description:
       ' Literary is a beautifull event , where everything about literary is going on. ',
     id: '0',
@@ -155,6 +156,7 @@ const Events = [
     description:
       ' this is a description of gaming events where everything about gaming happens',
     id: '1',
+
     events: [
       {
         name: 'Valorant',
@@ -285,31 +287,7 @@ const Events = [
           'Kusuma ': '9964195498',
         },
       },
-      {
-        name: 'Indian Ethnic Show',
-        cashPrize: '30000',
-        rules: `Vulgarity and obscenity in/of any form is not allowed.Participants are requested to refrain from using controversial remarks. Repetition of the same scripts in different events will be disqualified. Maximum 7 participants per team.
-          3 teams per college.
-A team can include boys and girls.
-Minimum 5 participants and maximum 20 participants.
-Background music will be allowed.Time limit is 8+2 minutes.
-Teams have to submit photos and videos of their performance as per the date announced on the official Instagram page.
-Participants are requested to behave decently on stage.
-Indecent acts of physical contact or vulgarity on stage will lead to disqualification.
-Dress code of participants should strictly portray Indian ethnicity and should not involve any kind of vulgarity.
-Traditional culture of different states has to be presented.
-Decision of the judges is final and binding`,
-        eventimage: 'https://picsum.photos/300/300?random=9',
-        eventDetails: {
-          registrationFee: '200',
-          dateAndTime: '30 June 2023 12:00 PM',
-          location: 'Chemical Seminar Hall',
-        },
-        coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
-        },
-      },
+      
     ],
   },
   {
@@ -344,7 +322,7 @@ Decision of the judges is final and binding`,
         Only drums with double bass pedal will be provided.
         Time limit 20 minutes which includes both sound check and performance.
         Karaoke, programmed music and special effects are not allowed.`,
-        eventimage: 'https://picsum.photos/300/300?random=9',
+        eventimage: BoB,
         eventDetails: {
           registrationFee: '1500',
           dateAndTime: '30 June 2023 12:00 PM',
@@ -594,6 +572,39 @@ Number of participants allowed is 1
           'Kusuma ': '9964195498',
         },
       },
+    
+    ],
+  },
+  {
+    category: 'MAJOR EVENTS',
+    description: 'Dance is the art of expression through the arts.',
+    id: '6',
+    events: [
+      {
+        name: 'Indian Ethnic Show',
+        cashPrize: '30000',
+        rules: `Vulgarity and obscenity in/of any form is not allowed.Participants are requested to refrain from using controversial remarks. Repetition of the same scripts in different events will be disqualified. Maximum 7 participants per team.
+          3 teams per college.
+A team can include boys and girls.
+Minimum 5 participants and maximum 20 participants.
+Background music will be allowed.Time limit is 8+2 minutes.
+Teams have to submit photos and videos of their performance as per the date announced on the official Instagram page.
+Participants are requested to behave decently on stage.
+Indecent acts of physical contact or vulgarity on stage will lead to disqualification.
+Dress code of participants should strictly portray Indian ethnicity and should not involve any kind of vulgarity.
+Traditional culture of different states has to be presented.
+Decision of the judges is final and binding`,
+        eventimage: 'https://picsum.photos/300/300?random=9',
+        eventDetails: {
+          registrationFee: '200',
+          dateAndTime: '30 June 2023 12:00 PM',
+          location: 'Chemical Seminar Hall',
+        },
+        coordinatorDetails: {
+          'Shravan S': '9980228687',
+          'Kusuma ': '9964195498',
+        },
+      },
       {
         name: 'Choreography',
         cashPrize: '30000',
@@ -615,6 +626,7 @@ Teams have to submit a video of their performance as per the date announced on t
           'Kusuma ': '9964195498',
         },
       },
+
     ],
   },
 

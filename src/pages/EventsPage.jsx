@@ -3,6 +3,8 @@ import { BackgroundBlogCard } from '../components/EventsComponentAll';
 import Data from '../assets/Data.js';
 
 function EventsPage() {
+
+  console.log(Data)
   return (
     <div>
       <div className="relative">
