@@ -10,9 +10,9 @@ function EventsPage() {
       <div className="relative">
         {/* <Home /> */}
 
-        <div className='flex flex-col items-center justify-center sm:flex-row flex-wrap'>
+        <div className='flex flex-col items-center scale-75 justify-center sm:flex-row flex-wrap'>
           {Data.map((category, index) => (
-            <div className='m-5 mt-16 hover:scale-105 duration-500'>
+            <div className='m-5  hover:scale-105 duration-500'>
 
             <BackgroundBlogCard key={index} category = {category} ></BackgroundBlogCard>
             </div>
