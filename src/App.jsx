@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Contact from './pages/Contact';
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <div className="min-w-screen min-h-screen flex flex-col bg-zinc-900 text-white overflow-x-hidden relative">
