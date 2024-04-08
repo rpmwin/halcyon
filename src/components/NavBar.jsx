@@ -47,7 +47,7 @@ import SITLOGO from '../assets/Logo/SIT.png';
 function NavBar() {
   return (
     <div className="flex justify-between items-center p-3 px-6 bg-gray-600 bg-opacity-50 backdrop-blur-lg shadow-lg rounded-xl sm:w-3/4">
-      <img src={SITLOGO} alt="" className="w-8 sm:w-12 mr-4" /> {/* Added margin to the logo */}
+      <img  draggable="false" style={{userSelect:'none'}} src={SITLOGO} alt="" className="w-8 sm:w-12 mr-4" /> {/* Added margin to the logo */}
       <div className="flex justify-between space-x-3 text-lg sm:text-xl">
         <NavLink
           to="/"
@@ -74,7 +74,7 @@ function NavBar() {
           Contact us
         </NavLink>
       </div>
-      <img src={SITLOGO} alt="" className="w-8 sm:w-12 ml-4" /> {/* Added margin to the logo */}
+      <img  draggable="false" style={{userSelect:'none'}} src={SITLOGO} alt="" className="w-8 sm:w-12 ml-4" /> {/* Added margin to the logo */}
     </div>
   );
 }
