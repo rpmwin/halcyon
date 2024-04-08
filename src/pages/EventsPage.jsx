@@ -1,7 +1,7 @@
 import React from 'react';
 import { BackgroundBlogCard } from '../components/EventsComponentAll';
 import Data from '../assets/Data.js';
-
+import bgmi from '../assets/Images/20Q.jpg'
 function EventsPage() {
 
   console.log(Data)

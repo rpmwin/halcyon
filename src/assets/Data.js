@@ -2,6 +2,11 @@ import Valorantpic from '../assets/Images/Valorant1.webp';
 import Valorantimage from './Images/valo1.jpg';
 import BGMI from './Images/BGMI.jpg';
 import BoB from './Images/battleofBands.jpg';
+import indowesternvocalSolo from './Images/VocalSOLOwestern.jpg';
+import duetSinging from './Images/DUETSINGING.jpg';
+import beatBoxing from './Images/BEATBOX.jpg';
+import classicalVocal from './Images/classicalSinging.jpg';
+
 const Events = [
   {
     category: 'Literary',
@@ -303,15 +308,15 @@ const Events = [
         Maximum of two accompanists allowed.
         Recorded music or karaoke is allowed.
         Time limit : 4+1 minutes.`,
-        eventimage: 'https://picsum.photos/300/300?random=9',
+        eventimage: indowesternvocalSolo,
         eventDetails: {
           registrationFee: '200',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -329,8 +334,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -342,15 +347,15 @@ const Events = [
         Karaoke and a maximum of 2 accompanists are allowed.
         Time limit: 4+1 minutes.
         Judgement will be based solely on vocals.`,
-        eventimage: 'https://picsum.photos/300/300?random=10',
+        eventimage: duetSinging,
         eventDetails: {
           registrationFee: '300',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -364,15 +369,15 @@ const Events = [
         No instruments or special effects are allowed.
         Judges' decisions will be based on originality, techniques and crowd response.
         Halcyon music committee reserves the right to make any last-minute changes in the rules.`,
-        eventimage: 'https://picsum.photos/300/300?random=10',
+        eventimage: beatBoxing,
         eventDetails: {
           registrationFee: '200',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -385,15 +390,15 @@ const Events = [
         No accompanists are allowed.
         Shruthi boxes are allowed.
         Time limit: 10+1 minutes.`,
-        eventimage: 'https://picsum.photos/300/300?random=10',
+        eventimage: classicalVocal,
         eventDetails: {
           registrationFee: '200',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
     ],
