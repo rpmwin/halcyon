@@ -18,7 +18,7 @@ export function BackgroundBlogCard({
   return (
     <Card
       shadow={false}
-      className="relative grid h-[40rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center min-w-96"
+      className="relative grid h-[40rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center min-w-[28rem]"
     >
       <CardHeader
         floated={false}

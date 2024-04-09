@@ -1,7 +1,12 @@
-import Valorantpic from '../assets/Images/Valorant1.webp';
+
 import Valorantimage from './Images/valo1.jpg';
 import BGMI from './Images/BGMI.jpg';
 import BoB from './Images/battleofBands.jpg';
+import indowesternvocalSolo from './Images/VocalSOLOwestern.jpg';
+import duetSinging from './Images/DUETSINGING.jpg';
+import beatBoxing from './Images/BEATBOX.jpg';
+import classicalVocal from './Images/classicalSinging.jpg';
+
 const Events = [
   {
     category: 'Literary',
@@ -30,8 +35,8 @@ const Events = [
         },
         eventimage: 'https://picsum.photos/1000/1500?random=1',
         coordinatorDetails: {
-          Venkatesh: '8310316591',
-          Sathvika: '9845885900',
+          'KUSHAL B': '6366521691',
+          'NITHYASHREE D': '8904296071',
         },
       },
       {
@@ -48,8 +53,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          Venkatesh: '8310316591',
-          Sathvika: '9845885900',
+          'KUSHAL B': '6366521691',
+          'NITHYASHREE D': '8904296071',
         },
       },
       {
@@ -67,8 +72,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          Venkatesh: '8310316591',
-          Sathvika: '9845885900',
+          'KUSHAL B': '6366521691',
+          'NITHYASHREE D': '8904296071',
         },
       },
       {
@@ -91,8 +96,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          Venkatesh: '8310316591',
-          Sathvika: '9845885900',
+          'KUSHAL B': '6366521691',
+          'NITHYASHREE D': '8904296071',
         },
       },
       {
@@ -109,8 +114,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          Venkatesh: '8310316591',
-          Sathvika: '9845885900',
+          'KUSHAL B': '6366521691',
+          'NITHYASHREE D': '8904296071',
         },
       },
       {
@@ -127,8 +132,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          Venkatesh: '8310316591',
-          Sathvika: '9845885900',
+          'KUSHAL B': '6366521691',
+          'NITHYASHREE D': '8904296071',
         },
       },
       {
@@ -145,8 +150,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          Venkatesh: '8310316591',
-          Sathvika: '9845885900',
+          'KUSHAL B': '6366521691',
+          'NITHYASHREE D': '8904296071',
         },
       },
     ],
@@ -172,8 +177,8 @@ const Events = [
           location: 'Architeture Dept',
         },
         coordinatorDetails: {
-          'Manikanta D': '8217680357',
-          'Sinchana K R': '7022086109',
+          'MANJUNATHA SALAGARE': '8073078422',
+          'RUCHITHA N': '6364756959',
         },
       },
       {
@@ -191,8 +196,8 @@ const Events = [
           location: 'Architeture Dept',
         },
         coordinatorDetails: {
-          'Manikanta D': '8217680357',
-          'Sinchana K R': '7022086109',
+          'MANJUNATHA SALAGARE': '8073078422',
+          'RUCHITHA N': '6364756959',
         },
       },
       {
@@ -208,8 +213,24 @@ const Events = [
           location: 'Architeture Dept',
         },
         coordinatorDetails: {
-          'Manikanta D': '8217680357',
-          'Sinchana K R': '7022086109',
+          'MANJUNATHA SALAGARE': '8073078422',
+          'RUCHITHA N': '6364756959',
+        },
+      },
+
+      {
+        name: 'NFS',
+        cashPrize: '5000',
+        rules: `4 participants compete with each other in a circuit.`,
+        eventimage: 'https://picsum.photos/300/300?random=8',
+        eventDetails: {
+          registrationFee: '200',
+          dateAndTime: '30 June 2023 12:00 PM',
+          location: 'Civil Department',
+        },
+        coordinatorDetails: {
+          'MANJUNATHA SALAGARE': '8073078422',
+          'RUCHITHA N': '6364756959',
         },
       },
     ],
@@ -232,8 +253,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'T R RAHUL': '9731077129',
+          'SHRUNGA GANIG': '7795165703',
         },
       },
       {
@@ -248,8 +269,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'T R RAHUL': '9731077129',
+          'SHRUNGA GANIG': '7795165703',
         },
       },
       {
@@ -264,8 +285,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'T R RAHUL': '9731077129',
+          'SHRUNGA GANIG': '7795165703',
         },
       },
       {
@@ -283,8 +304,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'T R RAHUL': '9731077129',
+          'SHRUNGA GANIG': '7795165703',
         },
       },
       
@@ -303,15 +324,15 @@ const Events = [
         Maximum of two accompanists allowed.
         Recorded music or karaoke is allowed.
         Time limit : 4+1 minutes.`,
-        eventimage: 'https://picsum.photos/300/300?random=9',
+        eventimage: indowesternvocalSolo,
         eventDetails: {
           registrationFee: '200',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -329,8 +350,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -342,15 +363,15 @@ const Events = [
         Karaoke and a maximum of 2 accompanists are allowed.
         Time limit: 4+1 minutes.
         Judgement will be based solely on vocals.`,
-        eventimage: 'https://picsum.photos/300/300?random=10',
+        eventimage: duetSinging,
         eventDetails: {
           registrationFee: '300',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -364,15 +385,15 @@ const Events = [
         No instruments or special effects are allowed.
         Judges' decisions will be based on originality, techniques and crowd response.
         Halcyon music committee reserves the right to make any last-minute changes in the rules.`,
-        eventimage: 'https://picsum.photos/300/300?random=10',
+        eventimage: beatBoxing,
         eventDetails: {
           registrationFee: '200',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
       {
@@ -385,15 +406,15 @@ const Events = [
         No accompanists are allowed.
         Shruthi boxes are allowed.
         Time limit: 10+1 minutes.`,
-        eventimage: 'https://picsum.photos/300/300?random=10',
+        eventimage: classicalVocal,
         eventDetails: {
           registrationFee: '200',
           dateAndTime: '30 June 2023 12:00 PM',
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'UDAY G.L': '9353977943',
+          'SHIVANI MOHAN': '9880786510',
         },
       },
     ],
@@ -418,8 +439,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'SHRAVAN KUMAR': '7022802038',
+          'NAMITHA': '8310919541',
         },
       },
       {
@@ -440,8 +461,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'SHRAVAN KUMAR': '7022802038',
+          'NAMITHA': '8310919541',
         },
       },
       {
@@ -461,8 +482,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'SHRAVAN KUMAR': '7022802038',
+          'NAMITHA': '8310919541',
         },
       },
       {
@@ -484,8 +505,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'SHRAVAN KUMAR': '7022802038',
+          'NAMITHA': '8310919541',
         },
       },
       {
@@ -504,8 +525,8 @@ const Events = [
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'SHRAVAN KUMAR': '7022802038',
+          'NAMITHA': '8310919541',
         },
       },
     ],
@@ -530,8 +551,8 @@ Live band is not allowed.
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Eshwar T N': '9980228687',
-          'Kusuma ': '9964195498',
+          'THARUN RAMESH': '8431789981',
+         
         },
       },
       {
@@ -548,8 +569,7 @@ Live band or group song accompanied by dancing is not allowed.
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Eshwar T N': '9980228687',
-          'Kusuma ': '9964195498',
+          'THARUN RAMESH': '8431789981',
         },
       },
       {
@@ -568,8 +588,7 @@ Number of participants allowed is 1
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Eshwar T N': '9980228687',
-          'Kusuma ': '9964195498',
+          'THARUN RAMESH': '8431789981',
         },
       },
     
@@ -601,8 +620,8 @@ Decision of the judges is final and binding`,
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Shravan S': '9980228687',
-          'Kusuma ': '9964195498',
+          'Shravan KUMAR': '7022802038',
+          'NAMITHA': '8310919541',
         },
       },
       {
@@ -622,8 +641,7 @@ Teams have to submit a video of their performance as per the date announced on t
           location: 'Chemical Seminar Hall',
         },
         coordinatorDetails: {
-          'Eshwar T N': '9980228687',
-          'Kusuma ': '9964195498',
+          'THARUN RAMESH': '8431789981',
         },
       },
 
