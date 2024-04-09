@@ -29,11 +29,11 @@
 import React from 'react';
 import { BackgroundBlogCard } from '../components/EventsComponentAll';
 import Data from '../assets/Data.js';
-import bgmi from '../assets/Images/bgtrial.svg';
+import bgmi1 from '../assets/Images/bgtrial1.svg';
 
 function EventsPage() {
   const pageStyle = {
-    backgroundImage: `url(${bgmi})`,
+    backgroundImage: `url(${bgmi1})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center', // Center the background image horizontally and vertically
