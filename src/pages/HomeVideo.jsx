@@ -90,7 +90,7 @@
 // export default HomeVideo;
 
 import React from 'react';
-import carnival from '../assets/Images/carnival.webp';
+import carnival from '../assets/Images/bgtrial.svg';
 import './HomeVideo.css';
 
 function HomeVideo() {
@@ -100,7 +100,7 @@ function HomeVideo() {
         <img
           src={carnival}
           alt="carnival image"
-          className="absolute top-0 left-0 w-full h-full object-cover z-0 blur"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0 "
         />
         <div
           className="relative z-10 rounded-xl"
