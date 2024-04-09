@@ -111,7 +111,7 @@ function HomeVideo() {
           </h1>
         </div>
         <a
-          className="absolute bottom-10 boxBtn uppercase border border-white px-8 py-6 rounded-full hover:bg-white hover:text-black transition duration-500 ease-in-out scroll-btn"
+          className="absolute bottom-10 boxBtn uppercase border border-white px-8 py-6 rounded-full hover:bg-white hover:text-black transition duration-500 ease-in-out scroll-btn select-none"
           onClick={() => {
             window.scrollTo({
               top: window.innerHeight,
