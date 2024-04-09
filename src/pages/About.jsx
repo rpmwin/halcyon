@@ -67,7 +67,7 @@ function About() {
           <img src={SIT} alt="" />
         </div>
       </div>
-      <div className=" w-3/4 text-left flex  items-center justify-center m-10">
+      <div className=" w-3/4 text-left flex flex-col sm:flex-row  items-center justify-center m-10">
         <div>
           <img src={halcyon} alt="" />
         </div>
