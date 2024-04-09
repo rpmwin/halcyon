@@ -31,12 +31,12 @@
 
 // export default Footer;
 
-
+import FooterImg from '../assets/Images/footerBackground.jpg';
 import React from 'react';
 
 function Footer() {
   return (
-    <div className='text-white w-screen text-center' style={{backgroundImage: 'url(../src/assets/Images/footerBackground.jpg)', backdropFilter: 'blur(5px)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <div className='text-white w-screen text-center' style={{backgroundImage: `url(${FooterImg})`, backdropFilter: 'blur(5px)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <div className='border-t-2 border-white mt-3'></div>
       <div className='flex items-center flex-col justify-center sm:flex-row sm:justify-around'>
         <div className='grid grid-cols-1 gap-3 p-5 text-lg'>
