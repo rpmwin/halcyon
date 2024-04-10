@@ -43,7 +43,7 @@ function EventsPage() {
   return (
     <div style={pageStyle}>
       <div className="relative">
-        <div className='flex scale-95 justify-center sm:flex-row flex-wrap'>
+        <div className='flex scale-[100%] justify-center sm:flex-row flex-wrap'>
           {Data.map((category, index) => (
             <div className='m-5 hover:scale-105 duration-500' key={index}>
               <BackgroundBlogCard category={category}></BackgroundBlogCard>

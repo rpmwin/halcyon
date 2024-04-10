@@ -7,11 +7,11 @@ function Contact() {
       <link
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        
         crossOrigin="anonymous"
       />
 
-      <div className="containerContact flex flex-col items-center justify-center sm:flex-row sm:justify-around">
+      <div className="containerContact flex flex-col items-center justify-center sm:flex-row pl-10 sm:pl-0 ">
         <div className="card">
           <div className="face face1">
             <div className="content">
@@ -79,12 +79,14 @@ function Contact() {
         </div>
       </div>
       <div>
-        <div className='text-center  mt-10 bg-white text-black'>
-          <h1 className='text-3xl'>CO - ORDINATOR DETAILS</h1> 
+       
         </div>
       </div>
-    </div>
+  
   );
 }
 
 export default Contact;
+
+
+
