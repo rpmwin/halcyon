@@ -92,7 +92,7 @@
 import React from 'react';
 import carnival from '../assets/Images/bgtrial.svg';
 import './HomeVideo.css';
-
+import arrow from '../assets/Images/downArrow.svg'
 function HomeVideo() {
   return (
     <div className="relative h-screen flex justify-center items-center">
@@ -111,7 +111,7 @@ function HomeVideo() {
           </h1>
         </div>
         <a
-          className="absolute bottom-10 boxBtn uppercase border border-white px-8 py-6 rounded-full hover:bg-white hover:text-black transition duration-500 ease-in-out scroll-btn select-none"
+          className="absolute bottom-10 boxBtn uppercase border text-lg border-black px-5 py-6 rounded-full bg-white text-black transition duration-500 ease-in-out scroll-btn select-none opacity-60"
           onClick={() => {
             window.scrollTo({
               top: window.innerHeight,
@@ -119,7 +119,7 @@ function HomeVideo() {
             });
           }}
         >
-          Scroll Down
+        <img src={arrow} alt="scroll down" className='text-black w-6 ' />
         </a>
       </section>
     </div>

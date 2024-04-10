@@ -14,6 +14,8 @@ const Events = [
     description:
       ' Literary is a beautifull event , where everything about literary is going on. ',
     id: '0',
+    imageUrl: Valorantimage,
+
     events: [
       {
         name: 'JAM',
@@ -161,6 +163,7 @@ const Events = [
     description:
       ' this is a description of gaming events where everything about gaming happens',
     id: '1',
+    imageUrl:BGMI,
 
     events: [
       {
@@ -316,6 +319,7 @@ const Events = [
     description:
       ' this consists of all the events where the participants have to perform music and dance.  ',
     id: '3',
+    imageUrl: duetSinging,
     events: [
       {
         name: 'Indo-Western Vocal Solo',

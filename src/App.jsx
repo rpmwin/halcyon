@@ -19,7 +19,7 @@ function App() {
         <div className="z-20 fixed top-3 p-3 w-screen transform navbarcss flex justify-center items-center">
           <NavBar />
         </div>
-        <div className="mt-10 flex-grow">
+        <div className=" flex-grow">
           <Routes>
             <Route path="/" element={<HomeMain />} />
             <Route path="/events" element={<EventsPage />} />

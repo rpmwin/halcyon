@@ -10,8 +10,8 @@ function LatestNews() {
               <textarea
                 name=""
                 id=""
-                value={"hellow world"}
-                className="  w-[90%] h-[150px] border ml-4 mt-0    pointer-events-auto"
+                value={"Thank you !!!"}
+                className="  w-[97%] h-[150px] border ml-4 mt-0 text-left text-3xl uppercase font-extrabold     pointer-events-auto"
               >
                 
               </textarea>
