@@ -90,7 +90,7 @@
 // export default HomeVideo;
 
 import React from 'react';
-import carnival from '../assets/Images/carnival.webp';
+import carnival from '../assets/Images/bgtrial.svg';
 import './HomeVideo.css';
 
 function HomeVideo() {
@@ -100,7 +100,7 @@ function HomeVideo() {
         <img
           src={carnival}
           alt="carnival image"
-          className="absolute top-0 left-0 w-full h-full object-cover z-0 blur"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0 "
         />
         <div
           className="relative z-10 rounded-xl"
@@ -111,7 +111,7 @@ function HomeVideo() {
           </h1>
         </div>
         <a
-          className="absolute bottom-10 boxBtn uppercase border border-white px-8 py-6 rounded-full hover:bg-white hover:text-black transition duration-500 ease-in-out scroll-btn"
+          className="absolute bottom-10 boxBtn uppercase border border-white px-8 py-6 rounded-full hover:bg-white hover:text-black transition duration-500 ease-in-out scroll-btn select-none"
           onClick={() => {
             window.scrollTo({
               top: window.innerHeight,
