@@ -33,7 +33,7 @@ function App() {
             {/* <Route path="/Test" element={<LoadingAnimation />} /> */}
           </Routes>
         </div>
-        <div className="  ">
+        <div className=" p-2 ">
           <Footer />
         </div>
       </Router>
